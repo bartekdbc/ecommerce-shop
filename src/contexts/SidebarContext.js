@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { useState, createContext } from "react";
 // create context
 export const SidebarContext = createContext();
 
@@ -11,7 +11,7 @@ const SidebarProvider = ({ children }) => {
   };
 
   return (
-    <SidebarContext.Provider value={(isOpen, setIsOpen, handleClose)}>
+    <SidebarContext.Provider value={{ isOpen, setIsOpen, handleClose }}>
       {children}
     </SidebarContext.Provider>
   );
