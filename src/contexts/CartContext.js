@@ -1,5 +1,4 @@
-import React, { createContext, useState, useEffect, useContext } from "react";
-import { BsChevronCompactUp } from "react-icons/bs";
+import React, { createContext, useState, useEffect } from "react";
 
 // create context
 export const CartContext = createContext();
@@ -17,7 +16,7 @@ const CartProvider = ({ children }) => {
       return accumulator + currentItem.price * currentItem.amount;
     }, 0);
     setTotal(total);
-  });
+  }, [cart]);
 
   // update item amount
   useEffect(() => {
