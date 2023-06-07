@@ -18,6 +18,7 @@ You can find a demo version [here](https://bartekdbc.github.io/ecommerce-shop/).
 - JavaScript (ES6+)
 - Tailwind CSS
 - React
+- React Router
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
