@@ -4,7 +4,7 @@
 
 ## General information
 
-This project is an Ecommerce shop with basic functionalities made in React. It contains JS functions responsible for managing items in cart and provides single page for each product. Data in the project is fetched from Fake Store API.
+This project is an Ecommerce shop which includes basic functionalities made in React. It contains JS functions responsible for managing items in cart and provides single page for each product. Data in the project is fetched from Fake Store API.
 
 ## Demo
 
