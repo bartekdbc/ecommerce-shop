@@ -12,7 +12,7 @@ You can find a demo version [here](https://bartekdbc.github.io/ecommerce-shop/).
 
 ## Preview
 
-![Preview]()
+![Preview](./Preview.gif)
 
 ## Technologies
 
